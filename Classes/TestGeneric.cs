@@ -29,7 +29,7 @@ public class TestGeneric : ITestGeneric
         {
             if(item.genericType != null)
             {
-                Console.WriteLine($"ID: {item.genericType.ID} Text: {item.genericType.SomeText}");
+                Console.WriteLine($"GenericType: {item.genericType}. ID: {item.genericType.ID}. Text: {item.genericType.SomeText}.");
             }
         }
     }

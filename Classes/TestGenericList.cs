@@ -31,7 +31,7 @@ public class TestGenericList : ITestGeneric
         {
             if(item.testType != null)
             {
-                Console.WriteLine($"ID: {item.testType.ID} Text: {item.testType.SomeText}");
+                Console.WriteLine($"GenericType: {item.testType}. ID: {item.testType.ID}. Text: {item.testType.SomeText}.");
             }
         }
     }
